@@ -14,7 +14,7 @@ end
 getgenv().LuaWareLoaded = true
 
 local CGui = gethui and gethui() or game:GetService("CoreGui")
-
+ 
 if CGui:FindFirstChild("LuaWare_Hub") then
     CGui:FindFirstChild("LuaWare_Hub"):Destroy()
 end
